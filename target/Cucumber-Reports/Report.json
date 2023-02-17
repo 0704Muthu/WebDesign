@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-17T03:25:03.978Z",
+        "line": 4,
+        "name": "SignIn to Facebook",
+        "description": "",
+        "id": "connecting-with-peoples;signin-to-facebook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51820064500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can enter in the facebook homepage",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_can_enter_in_the_facebook_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 624985500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can enter the valid username and password in given field",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_can_enter_the_valid_username_and_password_in_given_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1951151800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can Click the loginbutton",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_can_click_the_loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...tered is incorrect. [Forgotten password?]\u003e but was:\u003c...tered is incorrect. []\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.stepdefinition.StepDefinition.user_can_successfully_login(StepDefinition.java:39)\r\n\tat ✽.User can successfully login(file:///E:/Project/3PMCucumber/src/test/java/com/feature/login.feature:9)\r\n",
+              "duration": 60847700,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User can successfully login",
+            "match": {
+              "location": "com.stepdefinition.StepDefinition.user_can_successfully_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "connecting with peoples",
+    "description": "",
+    "id": "connecting-with-peoples",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/login.feature",
+    "tags": []
+  }
+]
